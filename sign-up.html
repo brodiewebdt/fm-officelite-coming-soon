@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="sign-up-bg">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon-32x32.png">
+    <title>Frontend Mentor | Officelite coming soon site</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="css/andy-bell-reset.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+
+<body class="sign-up-body">
+    <div class="container">
+      <header>
+        <a href="index.html"><img class="logo" src="assets/shared/logo.svg" alt="officelite"></a>
+      </header>
+
+      <main>
+          <div class="sign-up-information">
+
+          
+            <section class="call-to-action">
+                <div class="call-to-action-text">
+                    <h1>Work smarter. Save time.</h1>
+                    <p class="subhead">Easily manage your projects. Get on the list and receive in-app perks available only to 
+                    early subscribers. We are moving into final development and getting ready for official launch soon.</p>
+                </div><!-- /.call-to-action-text -->
+                
+            
+                <div class="call-to-action-timer">
+                    <!-- Countdown Section -->
+                    <div class="countdown sign-up-countdown">
+                        <h2 class="debut debut-light">Coming <span class="product-debut">4 Nov 2020</span></h2>
+                        <div class="timer sign-up-page-timer">
+                            <div class="time-block time-block-light"><span class="days">47</span>days</div><!-- /.time-block -->
+                            <div class="time-block time-block-light"><span class="hours">07</span>hours</div><!-- /.time-block -->
+                            <div class="time-block time-block-light"><span class="minutes">56</span>min</div><!-- /.time-block -->
+                            <div class="time-block time-block-light"><span class="seconds">14 </span>sec</div><!-- /.time-block -->
+                        </div><!-- /.timer -->
+                    </div><!-- /.countdown -->
+                </div><!-- /.call-to-action-timer -->
+            </section><!-- /.call-to-action -->
+        
+            <section class="contact-form">
+                <form>
+                    <input class="full-name" type="text" name="name" placeholder="Name" aria-label="name">
+                    <input class="email" type="email" name="email" placeholder="Email Address" aria-label="email address">            
+                    <select aria-label="package selections">
+                        <option value="basic-pack selected" selected><span class="text-accent">Basic Pack</span> Free</option>
+                        <option value="pro-pack"><span class="text-accent">Pro Pack</span> $9.99</option>
+                        <option value="ultimate-pack"><span class="text-accent">Ultimate Pack</span> $19.99</option>
+                    </select>
+                    <input type="text" name="phone" placeholder="Phone Number" aria-label="phone number">
+                    <input type="text" name="company" placeholder="Company" aria-label="company name">
+                    
+                    <button class="btn btn-primary btn-submit" type="submit" href="#">Get on the list</button>
+                </form>
+            </section><!-- /.contact-form -->
+      </div><!-- /.sign-up-information -->
+    </div><!-- /.container -->
+   </main>
+  
+  
+  
+    
+    <script src="js/script.js"></script>
+    <script src="js/contact-form.js"></script>
+</body>
+</html>
